@@ -62,8 +62,8 @@ kotlin {
             implementation(compose.ui)
             implementation(compose.components.resources)
             implementation(compose.components.uiToolingPreview)
-            implementation("media.kamel:kamel-image:0.9.4")
-            implementation("io.ktor:ktor-client-core:2.3.11")
+            implementation("media.kamel:kamel-image:0.9.5")
+            implementation("io.ktor:ktor-client-core:2.3.7")
         }
         desktopMain.dependencies {
             implementation(compose.desktop.currentOs)
